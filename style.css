@@ -296,7 +296,8 @@ a:hover{
     margin-left: 30%;
 }
 .scroll{
-    margin-left: 59%;
+    /* margin-left: 59%; */
+    display: none;
 }
 .footer{
     flex-direction: column;
