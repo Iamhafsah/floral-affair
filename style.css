@@ -9,6 +9,7 @@ body{
     padding: 0;
     font-family: 'Emilys Candy', cursive;
     color: var(--dark-text);
+    scroll-behavior: smooth;
 }
 .navi{
     background-color: var(--main-color);
