@@ -14,7 +14,6 @@ body{
 .navi{
     background-color: var(--main-color);
     padding: .2em;
-    /* width: 100vw; */
 }
 .logo{
     margin-left: 2em;
@@ -123,14 +122,17 @@ body{
 .card1{
     background: url(assets/sunflower.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card2{
     background: url(assets/tulip.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card3{
     background: url(assets/lily.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card4{
     background: url(assets/begonia.jpg);
@@ -139,28 +141,35 @@ body{
 .card5{
     background: url(assets/aster.jpg);
     background-size: cover;
+    background-position: center;
 }.card6{
     background: url(assets/bleeding-heart.jpg);
     background-size: cover;
+    background-position: center;
 }.card7{
     background: url(assets/blue-poppy.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card8{
     background: url(assets/aubrieta.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card9{
     background: url(assets/canterbury-bells.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card10{
     background: url(assets/balsam.jpg);
     background-size: cover;
+    /* background-position: center; */
 }
 .card11{
     background: url(assets/anemone-white.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card12{
     background: url(assets/balloon-flower.jpg);
@@ -169,14 +178,17 @@ body{
 .card13{
     background: url(assets/blackeyed-susan.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card14{
     background: url(assets/bergamot.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card15{
     background: url(assets/calendula.jpg);
     background-size: cover;
+    background-position: center;
 }
 .card a{
     color: white;
@@ -237,6 +249,9 @@ a:hover{
     text-align: center;
     padding: 0em 1em;
 }
+.flower-text h2{
+    font-size: 2rem;
+}
 .flower-text ul{
     margin-left: -2em;
 }
@@ -294,6 +309,9 @@ a:hover{
 @media screen and (max-width: 400px){
     .intro-text{
     margin-left: 30%;
+}
+.flower-text h2{
+    font-size: 1.5rem;
 }
 .scroll{
     /* margin-left: 59%; */
